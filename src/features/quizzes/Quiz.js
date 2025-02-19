@@ -13,8 +13,6 @@ export default function Quiz() {
   if(!quiz) {
     return <Navigate to={ROUTES.quizzesRoute()} replace/>
   }
-
-
   return (
     <section>
       <h1>{quiz.name}</h1>
