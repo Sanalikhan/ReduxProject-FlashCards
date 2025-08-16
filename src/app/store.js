@@ -9,5 +9,6 @@ export const store= configureStore({
     topics: topicsSliceReducer,
     Quiz: quizSliceReducer,
     cards: cardsSliceReducer
-  }
+  },
+  devTools: process.env.NODE_ENV !== 'production'
 });

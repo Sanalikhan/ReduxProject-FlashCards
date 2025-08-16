@@ -10,7 +10,7 @@ export default function NewTopicForm() {
   const dispatch = useDispatch();
   const [name, setName] = useState("");
   const [icon, setIcon] = useState("");
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
